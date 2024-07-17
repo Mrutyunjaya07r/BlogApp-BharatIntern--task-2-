@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+body{
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 1500px;    
+}
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding-left:30px ;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 12px;
+    font-size: larger;
+}
+img{
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.card{
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: rgba(215, 212, 212, 0.3);
+}
+.form{
+    height: 380px;
+    width: 400px;
+    background-color: rgb(189, 186, 186,0.4);
+    text-align: center;
+    border-radius: 10px;
+}
+.formin{
+    height:250px ;
+    width: 400px;
+    background-color: rgb(189, 186, 186,0.4);
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    height: 35px;
+    width: 300px;
+    margin: 20px;
+    background-color: aliceblue;
+    border: 0.5px solid black;
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-radius: 5px;
+}
+.container{
+    position: relative;
+    left: 380px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: larger;
+}
+.formdel{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(189, 186, 186,0.4);
+    text-align: center;
+    border-radius: 10px;
+}
+#search{
+    position: relative;
+    left: 380px;
+    width: 400px;
+    background-color: rgba(242, 242, 242, 0.2);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    background: #FDFC47;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#del{
+    background: #f85032;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
